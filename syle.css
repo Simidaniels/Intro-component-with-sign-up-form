@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(245, 165, 178);
+}
+.full-page{
+    display: flex;
+    position: absolute;
+    top: 170px;
+    left: 48vh;
+}
+.text-content{
+    color: #fff;
+    margin-top: 17vh;
+}
+.big-text{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50vh;
+}
+.paragraph{
+    display: block;
+    width: 60vh;
+    padding-top: 20px;
+    line-height: 3vh;
+}
+.payment{
+    background-color: rgb(69, 69, 167);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 4px 10px rgb(133, 133, 133);
+}
+.payment small{
+    color: rgb(188, 188, 188);
+}
+.form-wrapper{
+    width: 60vh;
+    margin-left: 10vh;
+}
+.form-container{
+    background-color: #fdfdfd;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 4px 6px 8px rgb(142, 142, 142);
+}
+.form input{
+    display: block;
+    margin: 10px;
+    width: 48vh;
+    padding: 12px;
+    padding-left: 15px;
+    border-radius: 6px;
+    border: 1px solid rgb(208, 208, 208);
+}
+.claim{
+    background-color: rgb(46, 137, 46);
+    padding: 12px;
+    border-radius: 6px;
+    margin: 10px;
+    margin-top: 20px;
+    box-shadow: 1px 3px 10px rgb(142, 142, 142);
+    text-align: center;
+}
+.claim a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+}
+.claim a:hover{
+    color: #363636;
+    transition: 0.8s ease-in-out;
+}
+.form-foot{
+    color: rgb(142, 142, 142);
+    font-size: 10px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+}
+.form-foot a{
+    text-decoration: none;
+    color: rgb(251, 7, 7);
+    font-weight: 600;
+}
